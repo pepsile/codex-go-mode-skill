@@ -1,4 +1,4 @@
 interface:
   display_name: "Go Mode"
-  short_description: "把目标编排成分阶段的 Superpowers 执行流"
-  default_prompt: "我要进入 go mode：请接住这个目标，先澄清必要信息，再在需要时拆成 phases，并把后续执行路由到合适的 Superpowers 流程。"
+  short_description: "把目标编排成分阶段、可沉淀、可隔离、可并行的执行流"
+  default_prompt: "我要进入 go mode：请接住这个目标，先做 Goal Lock、Phase Sketch、Isolation Check、Routing Check；再按阶段 PRD 模板沉淀 phase 文档，判断是否需要 worktree 隔离或并行 agent，然后按 phase gate 执行并验证。"
